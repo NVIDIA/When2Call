@@ -253,3 +253,22 @@ Results on **When2Call**, BFCL v2 Live AST and BFCL Irrelevance for three closed
 | GPT-4o                 | 61.3     | 61.3%     | 26%           | **79.8%**        | **83.8%**         |
 | GPT-4o-Mini            | 52.9     | 54.2%     | 41%           | 76.5%            | 80.7%             |
 | GPT-4-Turbo-04-09      | **64.6** | **64.3%** | **22%**       | 63.8%            | 35.6%             |
+
+# Citation
+
+If you find this work useful, please consider citing our paper:
+
+```bibtex
+@inproceedings{ross-etal-2025-when2call,
+    title = "{W}hen2{C}all: When (not) to Call Tools",
+    author = "Ross, Hayley  and Mahabaleshwarkar, Ameya Sunil  and Suhara, Yoshi",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.174/",
+    pages = "3391--3409",
+    ISBN = "979-8-89176-189-6",
+}
+```

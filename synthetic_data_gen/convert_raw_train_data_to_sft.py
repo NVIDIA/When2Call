@@ -54,7 +54,7 @@ def main():
         if item["correct_answer"] == "tool_call":
             formatted_item["messages"].append({"role": "assistant", "content": "<TOOLCALL>[" + f"{json.dumps(item['answers']['tool_call'])}" + "]</TOOLCALL>"})
         elif item["correct_answer"] == "cannot_answer":
-            formatted_item["messages"].append({"role": "assistant", "content": item["answers"]["tool_call"]})
+            formatted_item["messages"].append({"role": "assistant", "content": item["answers"]["cannot_answer"]})
         elif item["correct_answer"] == "request_for_info":
             formatted_item["messages"].append({"role": "assistant", "content": item["answers"]["request_for_info"]})
 
